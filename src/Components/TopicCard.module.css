@@ -1,0 +1,27 @@
+.topic_card {
+    height: 200px;
+    width: 30%;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 400px;
+  }
+  
+  .topic_card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .topic_card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .topic_card div {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  

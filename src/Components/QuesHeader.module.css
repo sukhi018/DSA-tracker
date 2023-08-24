@@ -1,0 +1,56 @@
+
+  .headerTitle {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .highlightTopics {
+    font-size: 2.5rem;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .highlightTopics:hover {
+    color: #0056b3;
+  }
+  
+  .topicText {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 0.3rem; 
+}
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-bottom:10px;
+    padding: 0;
+    background-color: #f4f4f4;
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header div {
+    flex: 1 1;
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+  
+  
+  .prob {
+    flex: 4 !important;
+    max-width: 400px !important;
+    text-align: left;
+  }
+  

@@ -1,0 +1,14 @@
+.chart
+{   
+    width: 100vw;
+    height: 800px;
+    margin:0px;
+    padding:0px;
+    overflow: scroll;
+}
+.all
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,46 @@
+/* Question.module.css */
+
+.question {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute content evenly */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .question div {
+    flex: 1;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .input
+  {
+    width: 20px!important;
+    height: 30px !important;
+  }
+
+  .accepted {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .prob {
+    flex: 4 !important;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
